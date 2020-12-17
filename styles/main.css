@@ -1,0 +1,113 @@
+*{
+	box-sizing: border-box;
+}
+.navbar li{
+	display: inline-block;
+	font-size: 24px;
+}
+.header1 {
+	margin: 0 30px 0 0;
+}
+.navbar li a{
+	color: #3D58A6;
+	vertical-align: middle;
+}
+.line{
+	height: 27px;
+	width: 2px;
+	display: inline-block;
+	background-color: #3D58A6;
+	margin: 0 20px 0 20px;
+	vertical-align: middle;
+}
+.midpart{
+	display: inline-block;
+	margin-right: 300px;
+}
+.socmedia{
+	vertical-align: middle;
+}
+.logo{
+    float: left;
+    padding: 25px;
+}
+.navbar{
+    float: right;
+    padding: 30px;
+}
+header{
+	background-color: rgb(181, 213, 228);
+	width: 100%;
+    position: fixed;
+    break-after: auto;
+    position: relative;
+}
+header:hover{
+    background-color: rgb(143, 197, 223);
+    transition: all 0.2s linear 0.1s; 
+}
+header:hover .navbar li a{
+    color:  #021d6d;
+    transition: all 0.11s linear 0s; 
+}
+header:hover .navbar li a:hover{
+    color: red;
+    font-size: 26px;
+}
+.anim{
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    animation-name: yolo;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: ease-in;
+}
+@keyframes yolo {
+        0% {
+            left : 200;
+            top: 0;
+        }
+        10%{
+            left: 200px;
+            top: 75px;
+        }
+        20%{
+            left: 200px;
+            top: 150px;
+        }
+        30%{
+            left: 200px;
+            top: 225px;
+        }
+        40% {
+            left: 200px;
+            top: 300px;
+        }
+        50%{
+            left: 200px;
+            top: 375px;
+        }
+        60% {
+            left: 200px;
+            top: 450px;
+        }
+        70%{
+            left: 200px;
+            top: 525px;
+        }
+        80%{
+            left: 200px;
+            top: 600px;
+        }
+        90%{
+            left: 200px;
+            top: 670px;
+        }
+        100% {
+            left: 200px;
+            top: 750px;
+        }
+}
